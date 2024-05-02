@@ -1,0 +1,8 @@
+document.getElementById('dreamForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const dreamText = document.getElementById('dreamText').value;
+    // Send dreamText to server for processing and generating dream credits
+    // Upon successful response, show the generated dream credits to the user
+    alert('Your dream has been deposited! You will receive your dream credits shortly.');
+    // You can redirect the user to another page or display a success message here
+});
